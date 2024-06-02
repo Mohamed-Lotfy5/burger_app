@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:test/controller/controller.dart';
 import 'package:test/views/homeView.dart';
+
+import 'controller/controller.dart';
 void main() {
   runApp(const MyApp());
 }

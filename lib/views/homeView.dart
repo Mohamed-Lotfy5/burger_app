@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
-import 'package:get/get.dart';
+
 import 'package:provider/provider.dart';
-import 'package:test/controller/controller.dart';
-import 'package:test/views/detaisView.dart';
+
+import '../controller/controller.dart';
+import 'detaisView.dart';
+
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:provider/provider.dart';
-import 'package:test/controller/controller.dart';
-import 'package:test/model/model.dart';
-import 'package:test/views/cartView.dart';
+
+import '../controller/controller.dart';
+import '../model/model.dart';
+import 'cartView.dart';
+
 
 class Diteals extends StatefulWidget {
   const Diteals({

@@ -1,7 +1,8 @@
 import 'package:flutter/foundation.dart';
-import 'package:get/get.dart';
-import 'package:test/model/fake_data.dart';
-import 'package:test/model/model.dart';
+
+import '../model/fake_data.dart';
+import '../model/model.dart';
+
 
 class BurgerController extends ChangeNotifier {
   burgermodel model = burgermodel.fromJson(fakeData);
